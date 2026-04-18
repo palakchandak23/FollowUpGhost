@@ -46,14 +46,14 @@ public class Main {
                         pq.addCommitment(commitment);
                         sm.addCommitment(commitment);
                         stats.add(commitment);
-                        System.out.println("✅ Commitment added!");
+                        System.out.println("Commitment added!");
                     } else {
-                        System.out.println("❌ No commitment detected.");
+                        System.out.println("No commitment detected.");
                     }
                     break;
 
                 case 2:
-                    System.out.println("🔥 Top Priority:");
+                    System.out.println("Top Priority:");
                     System.out.println(pq.getTopPriority());
                     break;
 
@@ -62,7 +62,7 @@ public class Main {
                     int id = sc.nextInt();
                     sc.nextLine(); // clear buffer
                     pq.markCompleted(id);
-                    System.out.println("✅ Marked completed!");
+                    System.out.println("Marked completed!");
                     break;
 
                 case 4:
