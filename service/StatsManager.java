@@ -26,7 +26,7 @@ public class StatsManager {
 
         double score = total == 0 ? 0 : (completed * 100.0 / total);
 
-        System.out.println("\n📊 STATS");
+        System.out.println("\nSTATS");
         System.out.println("Total: " + total);
         System.out.println("Completed: " + completed);
         System.out.println("Overdue: " + overdue);
