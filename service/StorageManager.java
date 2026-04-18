@@ -14,7 +14,7 @@ public class StorageManager {
 
     public void displayAll() {
         for (String person : map.keySet()) {
-            System.out.println("\n👤 " + person);
+            System.out.println("\n" + person);
             for (Commitment c : map.get(person)) {
                 System.out.println(c);
             }
