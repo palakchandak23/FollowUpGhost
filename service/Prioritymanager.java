@@ -27,7 +27,7 @@ public class Prioritymanager {
                 return;
             }
         }
-        System.out.println("❌ ID not found");
+        System.out.println("ID not found");
     }
 
     public void displayAll() {
